@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+        <langChildren>0</langChildren>
+    </meta>
+    <ROOT>
+        <type>array</type>
+        <el>
+            <data-count>
+                <TCEforms>
+                    <label>LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.count</label>
+                    <config>
+                        <type>select</type>
+                        <items>
+                            <numIndex index="1">
+                                <numIndex index="0">LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.vertical</numIndex>
+                                <numIndex index="1">vertical</numIndex>
+                            </numIndex>
+                            <numIndex index="2">
+                                <numIndex index="0">LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.horizontal</numIndex>
+                                <numIndex index="1">horizontal</numIndex>
+                            </numIndex>
+                            <numIndex index="3">
+                                <numIndex index="0">LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.none</numIndex>
+                                <numIndex index="1">none</numIndex>
+                            </numIndex>
+                        </items>
+                    </config>
+                </TCEforms>
+            </data-count>
+            <data-related>
+                <TCEforms>
+                    <label>LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.related</label>
+                    <config>
+                        <type>input</type>
+                        <size>48</size>
+                        <max>80</max>
+                        <eval>trim</eval>
+                    </config>
+                </TCEforms>
+            </data-related>
+            <data-via>
+                <TCEforms>
+                    <label>LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.via</label>
+                    <config>
+                        <type>input</type>
+                        <size>48</size>
+                        <max>80</max>
+                        <eval>trim</eval>
+                    </config>
+                </TCEforms>
+            </data-via>
+            <data-text>
+                <TCEforms>
+                    <label>LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.text</label>
+                    <config>
+                        <type>input</type>
+                        <size>48</size>
+                        <max>80</max>
+                        <eval>trim</eval>
+                    </config>
+                </TCEforms>
+            </data-text>
+            <data-url>
+                <TCEforms>
+                    <label>LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.url</label>
+                    <config>
+                        <type>text</type>
+                        <rows>5</rows>
+                        <cols>50</cols>
+                    </config>
+                </TCEforms>
+            </data-url>
+             <data-lang>
+                <TCEforms>
+                    <label>LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.lang</label>
+                    <config>
+                        <type>select</type>
+                        <items>
+                            <numIndex index="1">
+                                <numIndex index="0">LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.en</numIndex>
+                                <numIndex index="1">en</numIndex>
+                            </numIndex>
+                            <numIndex index="2">
+                                <numIndex index="0">LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.fr</numIndex>
+                                <numIndex index="1">fr</numIndex>
+                            </numIndex>
+                            <numIndex index="3">
+                                <numIndex index="0">LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.de</numIndex>
+                                <numIndex index="1">de</numIndex>
+                            </numIndex>
+                            <numIndex index="4">
+                                <numIndex index="0">LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.es</numIndex>
+                                <numIndex index="1">es</numIndex>
+                            </numIndex>
+                            <numIndex index="5">
+                                <numIndex index="0">LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.ja</numIndex>
+                                <numIndex index="1">ja</numIndex>
+                            </numIndex>
+                        </items>
+                    </config>
+                </TCEforms>
+            </data-lang>
+            <templateFile>
+                <TCEforms>
+                    <label>LLL:EXT:tweetbutton/pi1/locallang.xml:flexform.templateFile</label>
+                    <config>
+                        <type>input</type>
+                        <eval>trim</eval>
+                        <wizards type="array">
+                            <_PADDING>2</_PADDING>
+                            <link type="array">
+                                <type>popup</type>
+                                <title>Link</title>
+                                <icon>link_popup.gif</icon>
+                                <script>browse_links.php?mode=wiard&amp;act=file</script>
+                                <params type="array">
+                                    <blindLinkOptions>page,url,mail,spec</blindLinkOptions>
+                                </params>
+                                <JSopenParams>height=300,width=500,status=0,menubar=0,scrollbars=1</JSopenParams>
+                            </link>
+                        </wizards>
+                    </config>
+                </TCEforms>
+            </templateFile>
+        </el>
+    </ROOT>
+</T3DataStructure>

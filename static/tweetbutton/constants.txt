@@ -1,0 +1,24 @@
+plugin.tx_tweetbutton_pi1 {
+
+    #cat=tweetbutton; type=string; label=template file
+    templateFile = EXT:tweetbutton/res/template.html
+
+    #cat=tweetbutton; type=options[vertical,horizontal,none]; label=Count type: Choose the type of counter display
+    data-count = vertical
+
+    #cat=tweetbutton; type=options[en,fr,de,es,ja]; label=Button language: Choose the language of the button text (English, French, German, Spanish, Japanese)
+    data-lang = en
+
+    #cat=tweetbutton; type=string; label=URL:Overwrite page URL with this one
+    data-url =
+
+    #cat=tweetbutton; type=string; label=Tweettext:The standard tweet text
+    data-text =
+
+    #cat=tweetbutton; type=string; label=Via: Your twitter account name
+    data-via =
+
+    #cat=tweetbutton; type=string; label= Related account: Recommend this twitter account
+    data-related =
+
+}

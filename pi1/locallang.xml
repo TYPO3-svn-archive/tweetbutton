@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_tweetbutton_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+
+			<label index="no_ts_template">The static typoscript template is not included in the typoscript setup. Please check the extension documentation of EXT:tweetbutton.</label>
+
+                        <label index="flexform.count">Show counter</label>
+                        <label index="flexform.vertical">vertical counter</label>
+                        <label index="flexform.horizontal">horizontal counter</label>
+                        <label index="flexform.none">none</label>
+                        <label index="flexform.related">Related twitter account</label>
+                        <label index="flexform.via">Your twitter account</label>
+                        <label index="flexform.text">Twitter text</label>
+                        <label index="flexform.url">URL to be tweeted</label>
+                        <label index="flexform.lang">Tweet button language</label>
+                        <label index="flexform.en">English</label>
+                        <label index="flexform.fr">French</label>
+                        <label index="flexform.de">German</label>
+                        <label index="flexform.es">Spanish</label>
+                        <label index="flexform.ja">Japanese</label>
+                        <label index="flexform.templateFile">Template File</label>
+
+		</languageKey>
+                <languageKey index="de" type="array">
+                        
+                        <label index="no_ts_template">Das statische TypoScript Template ist nicht im TypoScript Setup eingefügt. Bitte orientieren Sie sich an der Dokumentation der Extension tweetbutton.</label>
+
+                        <label index="flexform.count">Zähler anzeigen</label>
+                        <label index="flexform.vertical">vertikal</label>
+                        <label index="flexform.horizontal">horizontal</label>
+                        <label index="flexform.none">kein Zähler</label>
+                        <label index="flexform.related">Empfohlenes Twitter Konto</label>
+                        <label index="flexform.via">Eigenes Twitter Konto</label>
+                        <label index="flexform.text">Twitter Text</label>
+                        <label index="flexform.url">URL für den Tweet</label>
+                        <label index="flexform.lang">Tweet Button Sprache</label>
+                        <label index="flexform.en">englisch</label>
+                        <label index="flexform.fr">französisch</label>
+                        <label index="flexform.de">deutsch</label>
+                        <label index="flexform.es">spanisch</label>
+                        <label index="flexform.ja">japanisch</label>
+                        <label index="flexform.templateFile">Template-Datei</label>
+
+                </languageKey>
+	</data>
+</T3locallang>

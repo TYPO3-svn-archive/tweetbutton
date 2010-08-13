@@ -1,0 +1,26 @@
+plugin.tx_tweetbutton_pi1 = USER
+plugin.tx_tweetbutton_pi1 {
+
+    # template file to use
+    templateFile = {$plugin.tx_tweetbutton_pi1.templateFile}
+
+    #Count type: Choose the type of counter display
+    data-count = {$plugin.tx_tweetbutton_pi1.data-count}
+
+    #Button language: Choose the language of the button text (English, French, German, Spanish, Japanese)
+    data-lang = {$plugin.tx_tweetbutton_pi1.data-lang}
+
+    #URL:Overwrite page URL with this one
+    data-url = {$plugin.tx_tweetbutton_pi1.data-url}
+
+    #Tweettext:The standard tweet text
+    data-text = {$plugin.tx_tweetbutton_pi1.data-text}
+
+    #Via: Your twitter account name
+    data-via = {$plugin.tx_tweetbutton_pi1.data-via}
+
+    #Related account 1: Recommend this twitter account
+    data-related = {$plugin.tx_tweetbutton_pi1.data-related}
+
+}
+includeLibs = EXT:tweetbutton/pi1/class.tx_tweetbutton_pi1.php
